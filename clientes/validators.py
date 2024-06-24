@@ -4,7 +4,7 @@ from validate_docbr import CPF
 cpf = CPF()
 
 def cpf_valido(numero_cpf):
-    return len(numero_cpf) == 11 and cpf.validate(numero_cpf)
+    return cpf.validate(numero_cpf)
 
 def nome_valido(nome):
     return nome.isalpha()
